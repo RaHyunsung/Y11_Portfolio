@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyunsung Ra's Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a>Hyunsung's Portfolio</a></li>
+            <div class="dropdown" style="margin-right: 60px;">
+                <p class="dropbtn">
+                    <a>Project 1</a>
+                    <i class="fa fa-caret-down"></i>
+                </p>
+                <div class="dropdown-content">
+                    <img src="projects/project1/project1.png" style="width: 10%;height: auto;">
+                </div>
+            </div>
+            <div class="dropdown" style="margin-right: 60px;">
+                <p class="dropbtn">
+                    <a>Project 2</a>
+                    <i class="fa fa-caret-down"></i>
+                </p>
+                <div class="dropdown-content">
+                    <img src="projects/placeholder/ph.png" style="width: 10%;height: auto;">
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div class="title">
+        <h1 id="TitleH1">Hyunsung's Portfolio</h1>
+        <p>This website is for my digital technology (TTF) in Western Springs College.</p>
+    </div>
+    <hr>
+    <div class="Projects">
+        <center>
+            <h1 style="color: white;" class="neonText">Projects</h1>
+        </center>
+        <div class="container">
+            <br><br>
+            <ul class="project-list">
+                <li class="project-card" onclick="redirectTo('projects/project1/project1.html')">
+                    <img src="projects/project1/project1.png" alt="Project 1">
+                    <div class="info">
+                        <h3>Portfolio Website</h3>
+                        <p>A portfolio website for my projects.</p>
+                    </div>
+                </li>
+                <li class="project-card" onclick="redirectTo('')">
+                    <img src="projects/placeholder/ph.png" alt="Project 2">
+                    <div class="info">
+                        <h3>Project 2</h3>
+                        <p>Placeholder</p>
+                    </div>
+                </li>
+                <li class="project-card" onclick="redirectTo('')">
+                    <img src="projects/placeholder/ph.png" alt="Project 3">
+                    <div class="info">
+                        <h3>Project 3</h3>
+                        <p>Placeholder</p>
+                    </div>
+                </li>
+                <li class="project-card" onclick="redirectTo('')">
+                    <img src="projects/placeholder/ph.png" alt="Project 4">
+                    <div class="info">
+                        <h3>Project 4</h3>
+                        <p>Placeholder</p>
+                    </div>
+                </li>
+                <li class="project-card" onclick="redirectTo('')">
+                    <img src="projects/placeholder/ph.png" alt="Project 5">
+                    <div class="info">
+                        <h3>Project 5</h3>
+                        <p>Placeholder</p>
+                    </div>
+                </li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
+    <hr>
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
