@@ -157,6 +157,18 @@ body {
     text-shadow: rgba(255,255,255,1) 0px 0px 4px;
 }
 
+.final_outcome {
+    width: 80%;
+}
+
+.final_outcome p {
+    text-align: center;
+}
+
+.final_outcome img {
+    
+}
+
 @font-face {
     font-family: "MainFont";
     src: url("");
