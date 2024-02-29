@@ -157,16 +157,21 @@ body {
     text-shadow: rgba(255,255,255,1) 0px 0px 4px;
 }
 
-.final_outcome {
-    width: 80%;
+.final_outcome div {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
 }
 
 .final_outcome p {
-    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
 }
 
 .final_outcome img {
-    
+    width: 30%;
+    height: auto;
 }
 
 @font-face {
