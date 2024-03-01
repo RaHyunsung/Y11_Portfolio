@@ -157,21 +157,51 @@ body {
     text-shadow: rgba(255,255,255,1) 0px 0px 4px;
 }
 
-.final_outcome div {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
+.project_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 8%;
 }
 
-.final_outcome p {
+.project_container .LeftText h2 {
+    width: 120%;
+    font-size: 32px;
+}
+
+.project_container .LeftText p {
+    width: 120%;
+    font-size: 18px;
+}
+
+.project_container .LeftText {
+    text-align: center;
+    margin-right: 120px;
+}
+
+.project_container img {
+    width: 50%;
+    height: auto;
+}
+
+.endusers {
+    margin-top: 5%;
     color: white;
-    font-size: 64px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.endusers p {
     font-weight: bold;
 }
 
-.final_outcome img {
-    width: 30%;
-    height: auto;
+.requirements {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 @font-face {
