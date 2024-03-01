@@ -190,18 +190,22 @@ body {
 .endusers {
     margin-top: 5%;
     color: white;
-    text-align: center;
+    margin-left: 30%;
     margin-bottom: 5%;
+}
+.endusers h2 {
+    text-align: left;
 }
 .endusers p {
     font-weight: bold;
+    text-align: left;
 }
 
 .requirements {
     margin-top: 5%;
     color: white;
-    text-align: center;
     margin-bottom: 5%;
+    margin-left: 30%;
 }
 
 @font-face {
