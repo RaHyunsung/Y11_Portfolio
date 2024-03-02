@@ -7,16 +7,21 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="toProjectBtn">
+        <a href="#project-list">Projects</a>
+    </div>
     <div class="navbar">
         <ul>
-            <li><a></a></li>
-            <div class="dropdown" style="margin-right: 150px;">
+            <li><a><div class="glitch-wrapper">
+                <div class="glitch" data-text="YEPI" style="font-size: 30px;"><a class="neonText"></a></div>
+             </div></a></li>
+            <div class="dropdown" style="margin-right: 10%;">
                 <p class="dropbtn">
                     <a>Projects</a>
                     <i class="fa fa-caret-down"></i>
                 </p>
-                <div class="dropdown-content">
-                    <a href="projects/Year11_Portfolio/">Year11 Portfolio Website</a>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Projects will display on here for dropdown-->
                 </div>
             </div>
         </ul>
@@ -35,7 +40,7 @@
         <div class="Projectscontainer">
             <br><br>
             <ul class="project-list" id="project-list">
-                <!-- Projects will display on here. -->
+                <!-- Projects will display on here for cards -->
             </ul>
             <br><br>
         </div>

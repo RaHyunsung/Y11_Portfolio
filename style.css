@@ -334,3 +334,27 @@ body {
         transform: translate(0);
    }
 }
+
+.toProjectBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.toProjectBtn a {
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: black;
+    text-decoration: none;
+    padding-top: 40%;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+}

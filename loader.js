@@ -1,6 +1,6 @@
 var Projects = [
     {
-        title: "Portfolio Website",
+        title: "Year 11 Portfolio Website",
         desc: "A portfolio website for my projects.",
         url: "projects/Year11_Portfolio/"
     },
