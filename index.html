@@ -9,7 +9,7 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><a>Hyunsung's Portfolio</a></li>
+            <li><a></a></li>
             <div class="dropdown" style="margin-right: 150px;">
                 <p class="dropbtn">
                     <a>Projects</a>
@@ -22,61 +22,26 @@
         </ul>
     </div>
     <div class="title">
-        <h1 id="TitleH1">Hyunsung's Portfolio</h1>
-        <p>This website is for my digital technology (TTF) in Western Springs College.</p>
+        <div class="glitch-wrapper">
+            <div class="glitch" data-text="Hyunsung's Portfolio" style="margin-top: 20%; background-color: transparent; font-size: 128px;"><a class="neonText">Hyunsung's Portfolio</a></div>
+         </div>
+        <p class="neonText">This website is for my digital technology (TTF) in Western Springs College.</p>
     </div>
     <hr>
     <div class="Projects">
         <center>
-            <h1 style="color: white;" class="neonText">Projects</h1>
+            <h1 style="color: white;">Projects</h1>
         </center>
         <div class="Projectscontainer">
             <br><br>
-            <ul class="project-list">
-                <li class="project-card" onclick="redirectTo('projects/Year11_Portfolio/')">
-                    <img src="projects/Year11_Portfolio/cover.png" alt="Year11 Portfolio">
-                    <div class="info">
-                        <h3>Portfolio Website</h3>
-                        <p>A portfolio website for my projects.</p>
-                    </div>
-                </li>
-                <li class="project-card" onclick="redirectTo('')">
-                    <img src="projects/placeholder/ph.png" alt="Project 2">
-                    <div class="info">
-                        <h3>Project 2</h3>
-                        <p>Placeholder</p>
-                    </div>
-                </li>
-                <li class="project-card" onclick="redirectTo('')">
-                    <img src="projects/placeholder/ph.png" alt="Project 3">
-                    <div class="info">
-                        <h3>Project 3</h3>
-                        <p>Placeholder</p>
-                    </div>
-                </li>
-                <li class="project-card" onclick="redirectTo('')">
-                    <img src="projects/placeholder/ph.png" alt="Project 4">
-                    <div class="info">
-                        <h3>Project 4</h3>
-                        <p>Placeholder</p>
-                    </div>
-                </li>
-                <li class="project-card" onclick="redirectTo('')">
-                    <img src="projects/placeholder/ph.png" alt="Project 5">
-                    <div class="info">
-                        <h3>Project 5</h3>
-                        <p>Placeholder</p>
-                    </div>
-                </li>
+            <ul class="project-list" id="project-list">
+                <!-- Projects will display on here. -->
             </ul>
             <br><br>
         </div>
     </div>
     <hr>
-    <script>
-        function redirectTo(url) {
-            window.location.href = url;
-        }
-    </script>
+    <script src="script.js"></script>
+    <script src="loader.js"></script>
 </body>
 </html>
