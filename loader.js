@@ -1,8 +1,8 @@
 var Projects = [
     {
-        title: "Year 11 Portfolio Website",
-        desc: "A portfolio website for my projects.",
-        url: "projects/Year11_Portfolio/"
+        title: "Project 1",
+        desc: "Placeholder",
+        url: "projects/placeholder/"
     },
     {
         title: "Project 2",
