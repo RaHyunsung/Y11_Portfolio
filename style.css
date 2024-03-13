@@ -379,3 +379,48 @@ body {
     padding-top: 120px;
     margin-bottom: 20px;
 }
+
+.Development {
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.Box {
+    display: flex;
+    text-align: left;
+    margin-left: 30%;
+    color: white;
+}
+
+.Box .image img {
+    width: 40%;
+    height: auto;
+}
+
+.Testing {
+    display: flex;
+    padding-left: 28%;
+}
+
+.Testing h2 {
+    margin-right: 15%;
+    text-align: center;
+}
+
+.Feedback {
+    margin-left: 30%;
+}
+
+.Feedback h2 {
+    text-align: left;
+}
+
+.Feedback h3 {
+    text-align: left;
+}
+
+.Feedback p {
+    text-align: left;
+}
