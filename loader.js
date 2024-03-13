@@ -1,8 +1,8 @@
 var Projects = [
     {
-        title: "Project 1",
-        desc: "Placeholder",
-        url: "projects/placeholder/"
+        title: "Low Poly Character",
+        desc: "A low poly character that similar <br>to 'Ghost' in 'Call Of Duty'",
+        url: "projects/PolyCharacter/"
     },
     {
         title: "Project 2",
