@@ -1,7 +1,7 @@
 var Projects = [
     {
         title: "Low Poly Character",
-        desc: "A low poly character that similar <br>to 'Ghost' in 'Call Of Duty'",
+        desc: "A low poly character with scary outfit that fit<br> to dark theme horror",
         url: "projects/PolyCharacter/"
     },
     {
