@@ -388,7 +388,7 @@ body {
 }
 
 .Box {
-    display: flex;
+    display: block;
     text-align: left;
     margin-left: 30%;
     color: white;
