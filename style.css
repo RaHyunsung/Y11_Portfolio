@@ -388,10 +388,12 @@ body {
 }
 
 .Box {
+    width: 100%;
     display: block;
     text-align: left;
-    margin-left: 30%;
     color: white;
+    padding-left: 30%;
+    padding-right: 50%;
 }
 
 .Box .image img {
