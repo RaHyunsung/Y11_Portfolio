@@ -5,9 +5,9 @@ var Projects = [
         url: "projects/PolyCharacter/"
     },
     {
-        title: "Project 2",
-        desc: "Placeholder",
-        url: "projects/placeholder/"
+        title: "Sandwich Roulette",
+        desc: "A random gambling game with sandwhich",
+        url: "projects/Sandwich-Roulette/"
     },
     {
         title: "Project 3",

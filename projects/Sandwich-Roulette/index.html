@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <title>PolyCharacter</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li style="margin-left: 15px;"><a href="../../index.html   ">Home</a></li>
+            <li><a href="#FinalOutcome">Final Outcome</a></li>
+            <li><a href="#EndUsers">End Users</a></li>
+            <li><a href="#Requirements">Requirements</a></li>
+            <div class="dropdown">
+                <p class="dropbtn">
+                    <a href="#Implications">Implications</a>
+                    <i class="fa fa-caret-down"></i>
+                </p>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Auto load-->
+                </div>
+            </div>
+            <li><a href="#Development">Development</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center>
+        <h1 style="color: white;">Low Poly Character</h1>
+    </center>
+    <hr>
+    <div class="project_container finaloutcome" id="FinalOutcome" style="padding-top: 5%;">
+        <div class="LeftText">
+            <h2>Overview</h2>
+            <p>
+                The sandwich roulette is a turn based game, basically randomb based game (Well known example: Russian roulette) with sandwiches.<br>
+                Two or more players can take turns and choose one sandwich from a picnic basket. Some of them is poisoned.
+            </p>
+        </div>
+        <div class="RightImage">
+            <img src="cover.png" alt="project image">
+        </div>
+    </div>
+    <div class="endusers" id="EndUsers" style="padding-left: 0%; padding-top: 5%;">
+        <h2>End Users</h2>
+        <p>This game is targeted at gamblers, gamers, strategists for 13+ to 20 years old students in Western Springs College.</p>
+    </div>
+    <div class="requirements" id="Requirements" style="padding-top: 10%;">
+        <h2>Requirements</h2>
+        <table class="requirementsTable">
+            <tr>
+                <th>Number</th>
+                <th>Requirement Name</th>
+                <th>Specific</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Items</td>
+                <td>
+                    <ul>
+                        <li>Poison detector</li>
+                        <li>Heaing items (Poison cure)</li>
+                        <li>Max inventory of four items (System)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Gambling</td>
+                <td>
+                    <ul>
+                        <li>Random system for poisoned sandwiches</li>
+                        <li>Strategies to win (Not 100% of luck)</li>
+                        <li>Random items collecting system</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Turn based system</td>
+                <td>
+                    <ul>
+                        <li>A system that allows player to eat or pass when they get their turn if any players eats the poison they lose their health or if the sandwich was safe, they decide what to do with next sandwiches.</li>
+                        <li>Rounds, turn based system (All health and items are replenished.)</li>
+                        <li>Strategies</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Win/Lose system</td>
+                <td>
+                    <ul>
+                        <li>Damage system</li>
+                        <li>Health bar</li>
+                        <li>Heal system</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <div class="Implications" id="Implications" style="padding-top: 10%;">
+        <h2>Implications</h2>
+        <br>
+        <div id="Aesthetics">
+            <h3>Aesthetics</h3>
+            <p>
+                This game will be a pixel (dot) style game that is similar to the game called "Buckshot Roulette"<br>
+                with a menu that is similar to the game called "GTA 5"
+            </p>
+        </div>
+        <div id="Ethical">
+            <h3>Ethical</h3>
+            <p>
+                Solution: Poisoned sandwich that can kill people, gambling with risk of death<br>
+                Warn players with PG style button at the main menu<br>
+                AND if they click it, show a contract sheet style warning sheet about violence.
+            </p>
+        </div>
+        <div id="Intellectual Property">
+            <h3>Intellectual Property</h3>
+            <p>
+                The layout (dot style game) is quite similar to the game called "Buckshot Roulette"<br>
+                 -> Make some changes on theme of colors so it can be look different.<br>
+                Menu might be similar to the game called GTA<br>
+                 -> Make some changes on font and size.
+            </p>
+        </div>
+    </div>
+    <div class="Development" id="Development">
+        <div>
+            <h1>1. Turnaround (THIS IS A EXAMPLE FOR FUTURE CONTENT CHANGES)</h1>
+            <h2>Development</h2>
+            <div class="Box">
+                <div class="text">
+                    <h3>Development</h3>
+                    <p>
+                        This is my character design draft which is Inspired from the character "Slenderman".<br>
+                        I wanted to improve the quality of this character. However, I was ran out of time.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="Images/First.png" alt="Development">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="Feedback">
+                <h2>Feedback</h2>
+                <h3>Do you think the layout is easy to follow / well organised?</h3>
+                <p>"I like the spider (legs) on the back of the character."</p>
+                <h3>What don't you like about the layout?</h3>
+                <p>"I think the model isn't scary enough and it takes too much inspiration and looks to similar to slenderman."</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function LoadIDs() {
+            var implicationsDivs = document.querySelectorAll('.Implications div');
+            var dropdownContent = document.getElementById('dropdown-content');
+            implicationsDivs.forEach(function(div) {
+                console.log(div);
+                var id = div.id;
+                var name = div.id;
+                var link = document.createElement('a');
+                link.href = '#' + id;
+                link.textContent = name;
+                dropdownContent.appendChild(link);
+            });
+        }
+        LoadIDs();
+    </script>
+</body>
+</html>
