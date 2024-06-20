@@ -388,12 +388,11 @@ body {
 }
 
 .Box {
-    width: 100%;
+    width: 70%;
     display: block;
     text-align: left;
     color: white;
     padding-left: 30%;
-    padding-right: 50%;
 }
 
 .Box .image img {
@@ -425,4 +424,39 @@ body {
 
 .Feedback p {
     text-align: left;
+}
+
+.DevTable {
+    border-collapse: collapse;
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.DevTable td, .requirements th {
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+}
+
+.DevTable tr:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.DevTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: white;
+    color: black;
+    border-style: solid;
+}
+
+.DevTable a {
+    color: white;
+    text-decoration: none;
+}
+
+.DevTable a:hover {
+    text-decoration: underline;
 }
