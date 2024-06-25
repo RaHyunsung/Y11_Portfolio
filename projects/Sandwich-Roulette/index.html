@@ -137,7 +137,24 @@
     </div>
     <div class="Development" id="Development">
         <div>
-            <h1>1. Main Menu</h1>
+            <h1>1. Game Init</h1>
+            <h2>Development</h2>
+            <div class="Box">
+                <div class="text">
+                    <h3>Development</h3>
+                    <p>
+                        Before I start, I created variables that is used in multiple codes & functions.<br>
+                        First, I created font sizes and font styles for menu items which is for the next steps.<br>
+                        After that, since the game theme is dark, I created color black and white and other similar colors (gray, dark gray, transparent white, etc)<br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="images/GameInit.png" alt="Development"><br>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>2. Menu Renderer</h1>
             <h2>Development</h2>
             <div class="Box">
                 <div class="text">
@@ -149,8 +166,19 @@
                     </p>
                 </div>
                 <div class="image">
-                    <img src="images/Menu.png" alt="Development"><br>
-                    <img src="images/Menu-code.png" alt="Development">
+                    <img src="images/TextRendererEngine.png" alt="Development"><br>
+                    <p>This is the renderer function that is loading the text on the certain location with boxes.</p>
+                    <img src="images/Messagebox Renderer.png" alt="Development"><br>
+                    <p>This is the part of the messagebox renderer which shows the empty messagebox on the center.</p>
+                    <img src="images/Messagebox Renderer - Text render with y axis.png" alt="Development">
+                    <p>This is the part of the messagebox renderer which renders the texts that is splited by the line breaks.</p>
+                    <img src="images/Messagebox Renderer - Text Selection Updater.png" alt="Development">
+                    <p>
+                        This is the last part of the messagebox renderer. This updates the menu bar if the user changed their selected buttons.<br>
+                        This will be showed by changing background color and foreground color. which is white and black.
+                    </p>
+                    <img src="images/Menu-code.png" alt="Development"><br>
+                    <p>Final code for the text renderer.</p>
                 </div>
                 <h2>Testing</h2>
                 <table class="DevTable">
@@ -182,6 +210,25 @@
                 <p>"Each of the selected buttons has a different background color size when selected."</p>
             </div>
         </div>
+        <div>
+            <h1>3. Main Game Engine</h1>
+            <h2>Development</h2>
+            <div class="Box">
+                <div class="text">
+                    <h3>Development</h3>
+                    <p>
+                        After I created the renderer engines, I started to make main game engine that can be controlled by the user.<br>
+                        Arrow key, up and down can change the current selected button on the main menu.<br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="images/MainMenu Engine local messagebox updater.png" alt="Development">
+                    <p>This code will update the global variables that is sat in the previous code.</p>
+                    <img src="images/MenuEngine Init.png" alt="Development">
+                    <p></p>
+                </div>
+            </div>
+        <div>
     </div>
     <script>
         function LoadIDs() {
