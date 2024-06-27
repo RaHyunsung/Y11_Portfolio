@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../../style.css" rel="stylesheet">
-    <title>PolyCharacter</title>
+    <title>Sandwich Roulette</title>
 </head>
 <body>
     <div class="navbar">
@@ -29,7 +29,7 @@
     <br>
     <br>
     <center>
-        <h1 style="color: white;">Low Poly Character</h1>
+        <h1 style="color: white;">Sandwich Roulette</h1>
     </center>
     <hr>
     <div class="project_container finaloutcome" id="FinalOutcome" style="padding-top: 5%;">
@@ -150,11 +150,19 @@
                 </div>
                 <div class="image">
                     <img src="Images/GameInit.png" alt="Development"><br>
+                    <p>This code sets up the colours and font sizes for the main menu texts and messagebox texts.</p>
+                    <img src="Images/MenuEngine Init.png" alt="Development">
+                    <p>
+                        This code sets up the main menu texts and messagebox functions.<br>
+                        This code will allow the program to control the menu and messagebox more easier<br>
+                        because by just setting up the list of menu functions and messagebox functions, <br>
+                        it will automatically render the menu and messagebox.
+                    </p>
                 </div>
             </div>
         </div>
         <div>
-            <h1>2. Menu Renderer</h1>
+            <h1>2. Messagebox Renderer & Text Renderer</h1>
             <h2>Development</h2>
             <div class="Box">
                 <div class="text">
@@ -178,7 +186,7 @@
                         This will be showed by changing background color and foreground color. which is white and black.
                     </p>
                     <img src="Images/Menu-code.png" alt="Development"><br>
-                    <p>Final code for the text renderer.</p>
+                    <p>Final code for the messagebox renderer.</p>
                 </div>
                 <h2>Testing</h2>
                 <table class="DevTable">
@@ -188,14 +196,19 @@
                         <th>Output</th>
                     </tr>
                     <tr>
+                        <td>[Open the Messagebox]</td>
+                        <td>Show the messagebox</td>
+                        <td><img src="Images/Messagebox.jpg" alt="" style="width: 10%;"></td>
+                    </tr>
+                    <tr>
                         <td>[Arrow Key Up]</td>
-                        <td>"Start Game" -> "Exit"</td>
-                        <td> <img src="Images/Menu-Testing-ArrowUp.png" alt="Development"></td>
+                        <td>"Yes" -> "No"</td>
+                        <td><img src="Images/Messagebox Testing Arrow Key Up.jpg" alt="" style="width: 10%;"></td>
                     </tr>
                     <tr>
                         <td>[Arrow Key Down]</td>
-                        <td>"Start Game" -> "Settings"</td>
-                        <td> <img src="Images/Menu-Testing-ArrowDown.png" alt="Development"></td>
+                        <td>"Yes" -> "No"</td>
+                        <td><img src="Images/Messagebox Testing Arrow Key Down.jpg" alt="" style="width: 10%;"></td>
                     </tr>
                 </table>
             </div>
@@ -224,9 +237,25 @@
                 <div class="image">
                     <img src="Images/MainMenu Engine local messagebox updater.png" alt="Development">
                     <p>This code will update the global variables that is sat in the previous code.</p>
-                    <img src="Images/MenuEngine Init.png" alt="Development">
-                    <p></p>
                 </div>
+                <h2>Testing</h2>
+                <table class="DevTable">
+                    <tr>
+                        <th>Input</th>
+                        <th>Expected Output</th>
+                        <th>Output</th>
+                    </tr>
+                    <tr>
+                        <td>[Arrow Key Up]</td>
+                        <td>"Start Game" -> "Exit"</td>
+                        <td> <img src="Images/Menu-Testing-ArrowUp.png" alt="Development"></td>
+                    </tr>
+                    <tr>
+                        <td>[Arrow Key Down]</td>
+                        <td>"Start Game" -> "Settings"</td>
+                        <td> <img src="Images/Menu-Testing-ArrowDown.png" alt="Development"></td>
+                    </tr>
+                </table>
             </div>
         <div>
     </div>
